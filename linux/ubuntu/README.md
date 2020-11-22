@@ -34,5 +34,7 @@ $ sudo su
 # vim /etc/rc.local
 #!/bin/bash
 echo "ok" > /root/rc.local.ok
+
+# systemctl enable rc-local
 ```
 
