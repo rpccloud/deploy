@@ -35,6 +35,7 @@ $ sudo su
 #!/bin/bash
 echo "ok" > /root/rc.local.ok
 
+# chmod a+x /etc/rc.local
 # systemctl enable rc-local
 ```
 
