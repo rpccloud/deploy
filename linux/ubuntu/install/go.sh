@@ -9,7 +9,7 @@ sudo mkdir -p /workspace/go/src /workspace/go/pkg /workspace/go/bin
 sudo chmod 777 /opt/golang/${VERSION}
 sudo chmod 777 /workspace/go/src /workspace/go/pkg /workspace/go/bin
 
-cd /opt/go/${VERSION}
+cd /opt/golang/${VERSION}
 
 wget http://mirrors.ustc.edu.cn/golang/go${VERSION}.linux-amd64.tar.gz
 sudo tar -xzf go${VERSION}.linux-amd64.tar.gz -C /opt/golang/${VERSION}
