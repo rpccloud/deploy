@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-VERSION=1.15.3
+VERSION=1.15.6
 
 sudo rm -rf /opt/golang
 sudo mkdir -p /opt/golang/${VERSION}
