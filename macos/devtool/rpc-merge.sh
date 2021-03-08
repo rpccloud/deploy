@@ -2,7 +2,7 @@
 mkdir ~/tmp_rpc_merge && cd ~/tmp_rpc_merge
 
 git clone https://github.com/rpccloud/rpc
-cd cd ~/tmp_rpc_merge/rpc
+cd ~/tmp_rpc_merge/rpc
 git checkout dev
 git checkout master
 git merge dev
